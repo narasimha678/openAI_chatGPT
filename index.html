@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sum of Two Numbers</title>
+    </head>
+    <body>
+        <form action="/sum" method="post">
+            <h1>Sum of Two Numbers</h1>
+            <input type="number" name="num1" placeholder="Enter first number" />
+            <input type="number" name="num2" placeholder="Enter second number" />
+            <input type="submit" value="Submit" />
+        </form>
+        {% if sum %}
+            <h2>Sum of {{ num1 }} and {{ num2 }} is {{ sum }}</h2>
+        {% endif %}
+    </body>
+</html>
