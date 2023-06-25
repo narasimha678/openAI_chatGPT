@@ -1,0 +1,65 @@
+1. capitalize() - This function returns a string with the first character capitalized and the rest of the characters lowercased.
+
+Example:
+
+string = "hello world"
+print(string.capitalize())
+
+Output:
+
+Hello world
+
+2. center() - This function returns a string padded with specified fillchar with the original string centered to a total of width columns.
+
+Example:
+
+string = "Hello World"
+print(string.center(20, '*'))
+
+Output:
+
+****Hello World****
+
+3. count() - This function returns the number of times a specified value appears in a string.
+
+Example:
+
+string = "Hello World"
+print(string.count('l'))
+
+Output:
+
+3
+
+4. endswith() - This function returns True if a string ends with the specified suffix, otherwise it returns False.
+
+Example:
+
+string = "Hello World"
+print(string.endswith('d'))
+
+Output:
+
+True
+
+5. find() - This function returns the index of the first occurrence of the specified value in a string.
+
+Example:
+
+string = "Hello World"
+print(string.find('W'))
+
+Output:
+
+6
+
+6. format() - This function formats a specified string into a nicer output.
+
+Example:
+
+string = "Hello {}, my name is {}".format("World", "John")
+print(string)
+
+Output:
+
+Hello World, my name is John
